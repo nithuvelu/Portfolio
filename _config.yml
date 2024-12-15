@@ -1,14 +1,33 @@
-# Basic Site Settings
 title: "NITHYASHREE VELAYUTHAM PORTFOLIO"
 description: "Welcome to my portfolio, showcasing my work in data science, machine learning, and more!"
 url: "https://username.github.io" # Replace with your GitHub Pages URL
-baseurl: "/" # Typically leave this as "/"
+baseurl: "/"
 
-# Author Information
 author:
   name: "Nithyashree Velayutham"
   email: "your.email@example.com" # Update with your email
 
-# Theme Settings
-theme: jekyll-theme-aesthetic
+theme: jekyll-theme-cayman
+
+social_links:
+  twitter: "https://twitter.com/yourusername"
+  github: "https://github.com/yourusername"
+  linkedin: "https://www.linkedin.com/in/yourusername"
+
+navigation:
+  - name: "Home"
+    url: "/"
+  - name: "About"
+    url: "/about/"
+  - name: "Projects"
+    url: "/projects/"
+  - name: "Contact"
+    url: "/contact/"
+
+google_analytics: UA-XXXXX-Y # Optional
+
+exclude:
+  - README.md
+  - LICENSE.md
+
 
